@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d576fd88-3f46-44be-95ad-57151b283467" name="Default Changelist" comment="" />
+    <list default="true" id="d576fd88-3f46-44be-95ad-57151b283467" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRestServer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRestServer/note.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleRestServer/noteHandlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +16,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fundamentals/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpleRestServer/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#14#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpleRestServer/noteHandlers.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="e#14#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpleRestServer/note.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -40,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fundamentals/fundamentals.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -59,6 +98,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -71,6 +113,11 @@
         <option value="$PROJECT_DIR$/asynchronous/main.go" />
         <option value="$PROJECT_DIR$/fundamentals/main.go" />
         <option value="$PROJECT_DIR$/fundamentals/fundamentals.go" />
+        <option value="$PROJECT_DIR$/web-server/main.go" />
+        <option value="$PROJECT_DIR$/simpleRestServer/Notes.go" />
+        <option value="$PROJECT_DIR$/simpleRestServer/note.go" />
+        <option value="$PROJECT_DIR$/simpleRestServer/noteHandlers.go" />
+        <option value="$PROJECT_DIR$/simpleRestServer/main.go" />
       </list>
     </option>
   </component>
@@ -80,6 +127,7 @@
     <option name="width" value="1404" />
     <option name="height" value="770" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -95,12 +143,7 @@
             <path>
               <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="asynchronous" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleRestServer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build awesomeProject/fundamentals">
+  <component name="RunManager" selected="Go Build.go build awesomeProject/simpleRestServer">
     <configuration name="go build awesomeProject/asynchronous" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -153,8 +196,18 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build awesomeProject/simpleRestServer" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <package value="awesomeProject/simpleRestServer" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.go build awesomeProject/asynchronous" />
+      <item itemvalue="Go Build.go build awesomeProject/simpleRestServer" />
       <item itemvalue="Go Build.go build awesomeProject/fundamentals" />
     </list>
     <recent_temporary>
@@ -216,17 +269,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fundamentals/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fundamentals/fundamentals.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleRestServer/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#14#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleRestServer/note.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleRestServer/noteHandlers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fundamentals/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
